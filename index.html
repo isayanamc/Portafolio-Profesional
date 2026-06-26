@@ -1,59 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>isa.dev</title>
-  <link rel="icon" type="image/svg+xml" href="favicon-isadev.svg">
-  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background-color: #2C2C2A;
-      background-image: url('fondo_presentacion_isadev_C.png');
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-      font-family: 'Inter', sans-serif;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-    }
-    .logo {
-      font-family: 'Space Mono', monospace;
-      font-size: 3.5rem;
-      font-weight: 700;
-      letter-spacing: 2px;
-      margin-bottom: 1rem;
-    }
-    .logo .isa { color: #AFA9EC; }
-    .logo .dot { color: #D4537E; }
-    .logo .dev { color: #FFFFFF; }
-    .slogan {
-      font-family: 'Space Mono', monospace;
-      font-size: 0.9rem;
-      color: #D4537E;
-      letter-spacing: 4px;
-      margin-bottom: 3rem;
-    }
-    .badge {
-      font-family: 'Inter', sans-serif;
-      font-size: 0.85rem;
-      color: #AFA9EC;
-      border: 1px solid #AFA9EC;
-      padding: 0.5rem 1.5rem;
-      border-radius: 2rem;
-      letter-spacing: 2px;
-    }
-  </style>
-</head>
-<body>
-  <div class="logo">
-    <span class="isa">isa</span><span class="dot">.</span><span class="dev">dev</span>
-  </div>
-  <p class="slogan">engineered with purpose.</p>
-  <span class="badge">🚧 sitio en construcción</span>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon-isadev.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>isa.dev</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
 </html>

@@ -1,45 +1,16 @@
-# isa.dev — Portafolio Profesional
+# React + Vite
 
-> *engineered with purpose.*
+This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
 
-Repositorio del curso **Portafolio Profesional** — Universidad CENFOTEC, período 2C-2026.
+Currently, two official plugins are available:
 
-🌐 **Sitio web:** [isayanamc.github.io/Portafolio-Profesional](https://isayanamc.github.io/Portafolio-Profesional/)
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
----
+## React Compiler
 
-## Sobre este repositorio
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-Este repositorio contiene todos los trabajos desarrollados durante el curso, aplicando la identidad visual personal **isa.dev** a lo largo de cada entrega.
+## Expanding the Oxlint configuration
 
-## Estructura
-
-```
-Portafolio-Profesional/
-├── tarea1/       # Cuestionario - Introducción al portafolio web
-├── tarea2/       # Identidad Visual Web
-├── tarea3/       # Presentación Estratégica Profesional
-├── quiz/         # Quiz del curso
-├── examen/       # Exploración de Contenidos Extras
-└── proyecto/     # Portafolio Web Interactivo
-```
-
-## Identidad Visual
-
-| Elemento | Detalle |
-|----------|---------|
-| Logo | `isa.dev` — tipografía monospace |
-| Slogan | *engineered with purpose.* |
-| Color dominante | `#2C2C2A` — gris carbón |
-| Color secundario | `#AFA9EC` — lila |
-| Color acento | `#D4537E` — rosa |
-| Fuente títulos | Space Mono |
-| Fuente párrafos | Inter |
-
-## Estudiante
-
-**Isayana Murillo Calderón**  
-Bachillerato en Ingeniería de Software — BISOFT-23  
-Universidad CENFOTEC
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-isayana--murillo-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/isayana-murillo-57a620154)
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.

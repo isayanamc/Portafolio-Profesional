@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-bg: #2C2C2A;
+  --color-lila: #AFA9EC;
+  --color-rosa: #D4537E;
+  --color-white: #FFFFFF;
+  --font-mono: 'Space Mono', monospace;
+  --font-body: 'Inter', sans-serif;
+}
+
+body {
+  background-color: var(--color-bg);
+  background-image: radial-gradient(circle, rgba(175,169,236,0.3) 1px, transparent 1px);
+  background-size: 28px 28px;
+  background-attachment: fixed;
+  color: var(--color-white);
+  font-family: var(--font-body);
+  scroll-behavior: smooth;
+  min-height: 100vh;
+}
