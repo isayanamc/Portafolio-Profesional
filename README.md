@@ -10,12 +10,13 @@ Portafolio web freelance de **Isayana Murillo Calderón**, estudiante de Ingenie
 - Deploy en GitHub Pages vía `gh-pages`
 
 ## Desarrollo local
-\`\`\`bash
+
+```bash
 npm install
 npm run dev
 npm run build
 npm run deploy
-\`\`\`
+```
 
 ## Autora
 Isayana Murillo Calderón — [LinkedIn](https://www.linkedin.com/in/isayana-murillo-57a620154) · [GitHub](https://github.com/isayanamc)
