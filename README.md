@@ -1,16 +1,21 @@
-# React + Vite
+# isa.dev — Portafolio Profesional
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+🔗 **Sitio:** https://isayanamc.github.io/Portafolio-Profesional/
 
-Currently, two official plugins are available:
+Portafolio web freelance de **Isayana Murillo Calderón**, estudiante de Ingeniería de Software en Universidad CENFOTEC, desarrollado desde cero como proyecto final del curso *Portafolio Profesional*.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Stack
+- React 19 + Vite
+- CSS 
+- Deploy en GitHub Pages vía `gh-pages`
 
-## React Compiler
+## Desarrollo local
+\`\`\`bash
+npm install
+npm run dev
+npm run build
+npm run deploy
+\`\`\`
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Autora
+Isayana Murillo Calderón — [LinkedIn](https://www.linkedin.com/in/isayana-murillo-57a620154) · [GitHub](https://github.com/isayanamc)
