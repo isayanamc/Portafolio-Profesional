@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1140 240" width="1140" height="240">
+  <g stroke="#AFA9EC" stroke-width="1.4" fill="none" opacity="0.6">
+    <path d="M600,60 V85 H120 V110" />
+    <path d="M600,60 V85 H340 V110" />
+    <path d="M600,60 V85 H560 V110" />
+    <path d="M600,60 V85 H780 V110" />
+    <path d="M600,60 V85 H1000 V110" />
+  </g>
+
+  <g font-family="monospace">
+    <!-- HUB -->
+    <g>
+      <rect x="500" y="20" width="200" height="40" rx="8" fill="rgba(212,83,126,0.1)" stroke="#D4537E" stroke-width="1.8"/>
+      <text x="600" y="45" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold">App.jsx (Router)</text>
+    </g>
+
+    <!-- PÚBLICO -->
+    <g>
+      <rect x="20" y="110" width="200" height="110" rx="8" fill="rgba(175,169,236,0.08)" stroke="#AFA9EC" stroke-width="1.4"/>
+      <text x="120" y="132" text-anchor="middle" fill="#D4537E" font-size="12" font-weight="bold">Public</text>
+      <text x="120" y="152" text-anchor="middle" fill="#FFFFFF" font-size="10.5">Home</text>
+      <text x="120" y="169" text-anchor="middle" fill="#FFFFFF" font-size="10.5">Products</text>
+      <text x="120" y="186" text-anchor="middle" fill="#FFFFFF" font-size="10.5">Cart</text>
+      <text x="120" y="203" text-anchor="middle" fill="#FFFFFF" font-size="10.5">Contact</text>
+    </g>
+
+    <!-- AUTENTICACIÓN -->
+    <g>
+      <rect x="240" y="110" width="200" height="110" rx="8" fill="rgba(175,169,236,0.08)" stroke="#AFA9EC" stroke-width="1.4"/>
+      <text x="340" y="132" text-anchor="middle" fill="#D4537E" font-size="12" font-weight="bold">Authentication</text>
+      <text x="340" y="155" text-anchor="middle" fill="#FFFFFF" font-size="10.5">Login</text>
+      <text x="340" y="172" text-anchor="middle" fill="#FFFFFF" font-size="10.5">Sign Up</text>
+    </g>
+
+    <!-- PERFILES -->
+    <g>
+      <rect x="460" y="110" width="200" height="110" rx="8" fill="rgba(175,169,236,0.08)" stroke="#AFA9EC" stroke-width="1.4"/>
+      <text x="560" y="132" text-anchor="middle" fill="#D4537E" font-size="12" font-weight="bold">Profiles (by role)</text>
+      <text x="560" y="152" text-anchor="middle" fill="#FFFFFF" font-size="10.5">Customer</text>
+      <text x="560" y="169" text-anchor="middle" fill="#FFFFFF" font-size="10.5">Baker</text>
+      <text x="560" y="186" text-anchor="middle" fill="#FFFFFF" font-size="10.5">Seller</text>
+      <text x="560" y="203" text-anchor="middle" fill="#FFFFFF" font-size="10.5">Admin</text>
+    </g>
+
+    <!-- ADMINISTRACIÓN -->
+    <g>
+      <rect x="680" y="110" width="200" height="110" rx="8" fill="rgba(175,169,236,0.08)" stroke="#AFA9EC" stroke-width="1.4"/>
+      <text x="780" y="132" text-anchor="middle" fill="#D4537E" font-size="12" font-weight="bold">Admin Panel</text>
+      <text x="780" y="152" text-anchor="middle" fill="#FFFFFF" font-size="10.5">Users</text>
+      <text x="780" y="169" text-anchor="middle" fill="#FFFFFF" font-size="10.5">Orders</text>
+      <text x="780" y="186" text-anchor="middle" fill="#FFFFFF" font-size="10.5">Products</text>
+      <text x="780" y="203" text-anchor="middle" fill="#FFFFFF" font-size="10.5">Inventory</text>
+    </g>
+
+    <!-- CHECKOUT Y SEGURIDAD -->
+    <g>
+      <rect x="900" y="110" width="200" height="110" rx="8" fill="rgba(175,169,236,0.08)" stroke="#AFA9EC" stroke-width="1.4"/>
+      <text x="1000" y="132" text-anchor="middle" fill="#D4537E" font-size="12" font-weight="bold">Checkout &amp; Security</text>
+      <text x="1000" y="152" text-anchor="middle" fill="#FFFFFF" font-size="10.5">Checkout</text>
+      <text x="1000" y="169" text-anchor="middle" fill="#FFFFFF" font-size="10.5">AccessDenied</text>
+      <text x="1000" y="186" text-anchor="middle" fill="#FFFFFF" font-size="10.5">withAuth (HOC)</text>
+    </g>
+  </g>
+</svg>
