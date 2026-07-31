@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340">
+  <g stroke="#AFA9EC" stroke-width="1.4" fill="none" opacity="0.6">
+    <path d="M670,60 V85 H250 V110" />
+    <path d="M670,60 V85 H460 V110" />
+    <path d="M670,60 V110" />
+    <path d="M670,60 V85 H880 V110" />
+    <path d="M670,60 V85 H1090 V110" />
+
+    <path d="M250,150 V220" />
+    <path d="M460,150 V220" />
+    <path d="M670,150 V220" />
+    <path d="M880,150 V220" />
+    <path d="M1090,150 V220" />
+  </g>
+
+  <g stroke="#D4537E" stroke-width="1.3" fill="none" opacity="0.55" stroke-dasharray="4 3">
+    <path d="M1010,240 H960" />
+    <path d="M1090,260 V300 H670 V260" />
+  </g>
+
+  <g font-family="monospace">
+    <!-- MAIN / ORQUESTADOR -->
+    <g>
+      <rect x="570" y="20" width="200" height="40" rx="8" fill="rgba(212,83,126,0.1)" stroke="#D4537E" stroke-width="1.8"/>
+      <text x="670" y="45" text-anchor="middle" fill="#FFFFFF" font-size="13" font-weight="bold">MenuHandler</text>
+    </g>
+
+    <!-- SERVICIOS -->
+    <g>
+      <rect x="170" y="110" width="160" height="40" rx="8" fill="rgba(175,169,236,0.08)" stroke="#AFA9EC" stroke-width="1.4"/>
+      <text x="250" y="135" text-anchor="middle" fill="#FFFFFF" font-size="11.5">EstudianteService</text>
+    </g>
+    <g>
+      <rect x="380" y="110" width="160" height="40" rx="8" fill="rgba(175,169,236,0.08)" stroke="#AFA9EC" stroke-width="1.4"/>
+      <text x="460" y="135" text-anchor="middle" fill="#FFFFFF" font-size="12">ProfesorService</text>
+    </g>
+    <g>
+      <rect x="590" y="110" width="160" height="40" rx="8" fill="rgba(175,169,236,0.08)" stroke="#AFA9EC" stroke-width="1.4"/>
+      <text x="670" y="135" text-anchor="middle" fill="#FFFFFF" font-size="12.5">CursoService</text>
+    </g>
+    <g>
+      <rect x="800" y="110" width="160" height="40" rx="8" fill="rgba(175,169,236,0.08)" stroke="#AFA9EC" stroke-width="1.4"/>
+      <text x="880" y="135" text-anchor="middle" fill="#FFFFFF" font-size="12.5">GrupoService</text>
+    </g>
+    <g>
+      <rect x="1010" y="110" width="160" height="40" rx="8" fill="rgba(175,169,236,0.08)" stroke="#AFA9EC" stroke-width="1.4"/>
+      <text x="1090" y="135" text-anchor="middle" fill="#FFFFFF" font-size="11">GrupoCursoService</text>
+    </g>
+
+    <!-- MODELOS -->
+    <g>
+      <rect x="170" y="220" width="160" height="40" rx="8" fill="rgba(175,169,236,0.08)" stroke="#AFA9EC" stroke-width="1.4"/>
+      <circle cx="184" cy="232" r="3" fill="#D4537E"/>
+      <text x="250" y="245" text-anchor="middle" fill="#FFFFFF" font-size="13">Estudiante</text>
+    </g>
+    <g>
+      <rect x="380" y="220" width="160" height="40" rx="8" fill="rgba(175,169,236,0.08)" stroke="#AFA9EC" stroke-width="1.4"/>
+      <circle cx="394" cy="232" r="3" fill="#D4537E"/>
+      <text x="460" y="245" text-anchor="middle" fill="#FFFFFF" font-size="13">Profesor</text>
+    </g>
+    <g>
+      <rect x="590" y="220" width="160" height="40" rx="8" fill="rgba(175,169,236,0.08)" stroke="#AFA9EC" stroke-width="1.4"/>
+      <circle cx="604" cy="232" r="3" fill="#D4537E"/>
+      <text x="670" y="245" text-anchor="middle" fill="#FFFFFF" font-size="13">Curso</text>
+    </g>
+    <g>
+      <rect x="800" y="220" width="160" height="40" rx="8" fill="rgba(175,169,236,0.08)" stroke="#AFA9EC" stroke-width="1.4"/>
+      <circle cx="814" cy="232" r="3" fill="#D4537E"/>
+      <text x="880" y="245" text-anchor="middle" fill="#FFFFFF" font-size="13">Grupo</text>
+    </g>
+    <g>
+      <rect x="1010" y="220" width="160" height="40" rx="8" fill="rgba(212,83,126,0.1)" stroke="#D4537E" stroke-width="1.8"/>
+      <circle cx="1024" cy="232" r="3" fill="#D4537E"/>
+      <text x="1090" y="245" text-anchor="middle" fill="#FFFFFF" font-size="12.5" font-weight="bold">GrupoCurso</text>
+    </g>
+
+    <!-- ETIQUETAS DE CAPA -->
+    <text x="20" y="45" fill="#AFA9EC" font-size="11" letter-spacing="1">PRINCIPAL</text>
+    <text x="20" y="135" fill="#AFA9EC" font-size="11" letter-spacing="1">SERVICIOS</text>
+    <text x="20" y="245" fill="#AFA9EC" font-size="11" letter-spacing="1">MODELOS</text>
+  </g>
+</svg>
