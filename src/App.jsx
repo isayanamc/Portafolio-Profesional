@@ -10,6 +10,8 @@ import Lightbox from './components/Lightbox'
 import girlAnim from './assets/lottie/girl.json'
 import backendAnim from './assets/lottie/backend-icon.json'
 import DescargarCV from './components/DescargarCV'
+import ContactForm from './components/ContactForm'
+
 
 function Hero() {
     const { t } = useLanguage()
@@ -180,6 +182,7 @@ function Contacto() {
     return (
         <section className="card-section contacto" id="contacto">
             <h2 className="section-title">{t.contacto.title}</h2>
+            <ContactForm />
             <div className="contacto-links">
                 <a href="https://www.linkedin.com/in/isayana-murillo-57a620154" target="_blank" rel="noreferrer" className="contacto-btn">LinkedIn</a>
                 <a href="https://github.com/isayanamc/Portafolio-Profesional" target="_blank" rel="noreferrer" className="contacto-btn">GitHub</a>

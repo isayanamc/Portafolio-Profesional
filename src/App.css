@@ -631,3 +631,95 @@
     padding: 0.35rem 0.6rem;
   }
 }
+/* ── FORMULARIO DE CONTACTO ── */
+.contact-form {
+  max-width: 480px;
+  margin: 0 auto 2.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+  text-align: left;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.form-group label {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--color-lila);
+  letter-spacing: 0.5px;
+}
+
+.form-group input,
+.form-group textarea {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--color-white);
+  background: rgba(175, 169, 236, 0.06);
+  border: 1px solid rgba(175, 169, 236, 0.25);
+  border-radius: 10px;
+  padding: 0.7rem 0.9rem;
+  resize: vertical;
+  transition: border-color 0.3s ease, background 0.3s ease;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: rgba(255, 255, 255, 0.35);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--color-rosa);
+  background: rgba(175, 169, 236, 0.1);
+}
+
+.form-error {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-rosa);
+}
+
+.form-submit {
+  align-self: center;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--color-bg);
+  background: var(--color-rosa);
+  border: 1px solid var(--color-rosa);
+  padding: 0.6rem 2rem;
+  border-radius: 2rem;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: background 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
+
+.form-submit:hover:not(:disabled) {
+  background: var(--color-lila);
+  border-color: var(--color-lila);
+  transform: translateY(-2px);
+}
+
+.form-submit:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.form-status {
+  text-align: center;
+  font-size: 0.88rem;
+  margin-top: -0.3rem;
+}
+
+.form-status.success {
+  color: #7fd88f;
+}
+
+.form-status.error {
+  color: var(--color-rosa);
+}
