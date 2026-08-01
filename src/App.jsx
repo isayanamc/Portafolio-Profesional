@@ -5,6 +5,11 @@ import { useLanguage } from './i18n/LanguageContext'
 import { useState } from 'react'
 import LanguageSwitch from './components/LanguageSwitch'
 import ScrollTop from './components/ScrollTop'
+import Lottie from 'lottie-react'
+import Lightbox from './components/Lightbox'
+import girlAnim from './assets/lottie/girl.json'
+import backendAnim from './assets/lottie/backend-icon.json'
+import DescargarCV from './components/DescargarCV'
 
 function Hero() {
     const { t } = useLanguage()
@@ -111,16 +116,27 @@ function Proyectos() {
     const anterior = () => setIndex((i) => (i - 1 + items.length) % items.length)
     const siguiente = () => setIndex((i) => (i + 1) % items.length)
 
+    const [zoomSrc, setZoomSrc] = useState(null)
+
     return (
-        <section className="card-section" id="proyectos">
+        <section className="card-section proyectos-section" id="proyectos">
             <h2 className="section-title">{t.proyectos.title}</h2>
 
             <div className="proyecto-carousel">
+                <Lottie animationData={girlAnim} loop className="proyecto-lottie proyecto-lottie-left" />
+
                 <button className="proyecto-arrow" onClick={anterior} aria-label={t.proyectos.anterior}>‹</button>
 
                 <div className="proyecto-card" key={index}>
                     {p.imagen ? (
-                        <img src={p.imagen} alt={p.titulo} className="proyecto-imagen" />
+                        <button
+                            className="proyecto-imagen-btn"
+                            onClick={() => setZoomSrc(p.imagen)}
+                            aria-label={t.proyectos.verImagen}
+                        >
+                            <img src={p.imagen} alt={p.titulo} className="proyecto-imagen" />
+                            <span className="proyecto-imagen-hint">{t.proyectos.verImagen}</span>
+                        </button>
                     ) : (
                         <div className="proyecto-imagen-placeholder">[imagen]</div>
                     )}
@@ -137,6 +153,8 @@ function Proyectos() {
                 </div>
 
                 <button className="proyecto-arrow" onClick={siguiente} aria-label={t.proyectos.siguiente}>›</button>
+
+                <Lottie animationData={backendAnim} loop className="proyecto-lottie proyecto-lottie-right" />
             </div>
 
             <div className="proyecto-dots">
@@ -149,6 +167,10 @@ function Proyectos() {
                     />
                 ))}
             </div>
+
+            {zoomSrc && (
+                <Lightbox src={zoomSrc} alt={p.titulo} onClose={() => setZoomSrc(null)} />
+            )}
         </section>
     )
 }
@@ -161,6 +183,8 @@ function Contacto() {
             <div className="contacto-links">
                 <a href="https://www.linkedin.com/in/isayana-murillo-57a620154" target="_blank" rel="noreferrer" className="contacto-btn">LinkedIn</a>
                 <a href="https://github.com/isayanamc/Portafolio-Profesional" target="_blank" rel="noreferrer" className="contacto-btn">GitHub</a>
+                <a href="https://wa.me/50671351510" target="_blank" rel="noreferrer" className="contacto-btn">WhatsApp</a>
+                <DescargarCV />
             </div>
         </section>
     )

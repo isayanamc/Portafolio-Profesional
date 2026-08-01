@@ -43,6 +43,7 @@ export const translations = {
         proyectos: {
             title: 'Proyectos',
             verEnGithub: 'Ver en GitHub →',
+            verImagen: 'Ver imagen en grande',
             anterior: 'Proyecto anterior',
             siguiente: 'Proyecto siguiente',
             items: [
@@ -71,6 +72,7 @@ export const translations = {
         },
         contacto: {
             title: 'Contacto',
+            descargarCV: 'Descargar CV',
         },
     },
     en: {
@@ -117,6 +119,7 @@ export const translations = {
         proyectos: {
             title: 'Projects',
             verEnGithub: 'View on GitHub →',
+            verImagen: 'View larger image',
             anterior: 'Previous project',
             siguiente: 'Next project',
             items: [
@@ -145,6 +148,7 @@ export const translations = {
         },
         contacto: {
             title: 'Contact',
+            descargarCV: 'Download CV',
         },
     },
 }
